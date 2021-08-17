@@ -1,7 +1,8 @@
 import pathlib
 from setuptools import setup
 HERE = pathlib.Path(__file__).parent
-README = (HERE / "README.md").read_text()setup(
+README = (HERE / "README.md").read_text()
+setup(
   name="hwvdgc",
   version="0.0.1",
   description="",
